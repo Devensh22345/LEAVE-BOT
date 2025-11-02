@@ -24,7 +24,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7830753415:AAFp5QZjXYZKOPQpTjUjW0cCQ4ExoGFOZK4")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8433683728:AAEvdlqbOsEBdgCSS5AdhqiZMB_UuYIAqEU")
 if not BOT_TOKEN:
     logger.error("BOT_TOKEN environment variable not set. Exiting.")
     raise SystemExit("BOT_TOKEN environment variable not set")
