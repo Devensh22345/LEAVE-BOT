@@ -11,7 +11,7 @@ from telegram.ext import (
 
 load_dotenv()
 
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("BOT_TOKEN", ""7830753415:AAFp5QZjXYZKOPQpTjUjW0cCQ4ExoGFOZK4)
 OWNER_ID = os.getenv("OWNER_ID")  # optional
 
 logging.basicConfig(
